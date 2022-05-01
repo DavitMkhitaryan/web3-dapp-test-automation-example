@@ -1,0 +1,17 @@
+{
+    "env": {
+        "baseUrl": "https://securrencydapp.vercel.app/"
+    },
+    "defaultCommandTimeout": 15000,
+    "chromeWebSecurity": false,
+    "watchForFileChanges": false,
+    "video": false,
+    "screenshotOnRunFailure": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "report_files",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+}
